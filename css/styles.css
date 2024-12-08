@@ -1499,6 +1499,7 @@ hr.fancy::before {
   font-family: var(--font-1);
   font-size: var(--text-md);
   line-height: var(--vspace-1_25);
+  text-align: justify;
 }
 
 @media screen and (max-width: 800px) {
