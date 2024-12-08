@@ -3924,6 +3924,111 @@ td:last-child {
 }
 
 /* ------------------------------------------------------------------- 
+ * ## Project
+ * ------------------------------------------------------------------- */
+
+.project {
+  display: flex;
+  gap: 16px;
+  margin: 60px;
+  margin-top: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  /* border-radius: 25px; */
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.project-image {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+}
+.project-image img {
+  width: 100%;
+  height: 270px;
+  min-height: 250px;
+  display: block;
+  object-fit: contain;
+}
+.project-info {
+  width: 60%;
+  padding: 8px;
+}
+.project-title {
+  font-size: 1.8em;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.project-description {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+.project-technologies {
+  margin-bottom: 15px;
+}
+.technology {
+  display: inline-block;
+  /* border: 1px solid #000; */
+  /* border-radius: 8px; */
+  background-color: rgba(0, 0, 0, 0.09);
+  padding: 3px 8px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+}
+.project-link {
+  display: inline-block;
+  margin-right: 15px;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+.project-link:hover {
+  border-bottom: 2px solid #000;
+}
+
+/* ------------------------------------------------------------------- 
+ * ## Technology
+ * ------------------------------------------------------------------- */
+
+.tech-section {
+  margin-bottom: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.tech-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+  align-items: center;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.tech-item img {
+  height: 50px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.tech-item span {
+  font-size: 0.9em;
+  text-align: center;
+}
+/* ------------------------------------------------------------------- 
  * ## folio entries 
  * ------------------------------------------------------------------- */
 .folio-entries .entry {
@@ -4082,6 +4187,35 @@ td:last-child {
  * responsive:
  * works
  * ------------------------------------------------------------------- */
+@media screen and (max-width: 1000px) {
+  .project {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .project-image {
+    width: 100%;
+  }
+  .project-info {
+    width: 100%;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project {
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .tech-section {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .folio-entries .entry__cat {
     font-size: calc(var(--text-size) * 0.7);
