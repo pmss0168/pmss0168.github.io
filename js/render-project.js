@@ -11,7 +11,7 @@ const projects = [
   {
     title: 'VanouS Motel',
     description:
-      'Website đặt phòng nhà nghỉ. VanouS Motel cung cấp cho người nơi để đặt phòng nhà nghỉ, xem hóa đơn, thay đổi thông tin cá nhân. Quản trị viên có thể quản lý phòng, loại phòng, đơn đặt phòng và thống kê tổng tiền, số đơn đặt.',
+      'Website đặt phòng nhà nghỉ. VanouS Motel cung cấp cho người dùng nơi để đặt phòng nhà nghỉ, xem hóa đơn, thay đổi thông tin cá nhân. Quản trị viên có thể quản lý phòng, loại phòng, đơn đặt phòng và thống kê tổng tiền, số đơn đặt.',
     image: 'images/project/vanous_motel.jpeg',
     technologies: ['Java J2EE', 'JSP', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     githubLink: 'https://github.com/pmss0168/VanousMotel',

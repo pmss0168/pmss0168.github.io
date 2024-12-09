@@ -3971,9 +3971,8 @@ td:last-child {
 }
 .technology {
   display: inline-block;
-  /* border: 1px solid #000; */
-  /* border-radius: 8px; */
-  background-color: rgba(0, 0, 0, 0.09);
+  background: var(--color-2-dark);
+  color: var(--color-white);
   padding: 3px 8px;
   margin-right: 5px;
   margin-bottom: 5px;
