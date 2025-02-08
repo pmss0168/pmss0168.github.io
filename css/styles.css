@@ -3380,7 +3380,8 @@ td:last-child {
 }
 
 .s-intro__content-title {
-  font-size: clamp(3rem, 5vw, 6rem);
+  font-family: var(--font-1);
+  font-size: clamp(3.8rem, 4.8vw, 8.8rem);
   line-height: 1.045;
   letter-spacing: -0.025em;
   margin-top: 0;
