@@ -5,7 +5,7 @@ const projects = [
       'Hệ thống website thương mại điện tử. VanouS xây dựng các chức năng hỗ trợ người dùng mua sắm như thêm giỏ hàng, đặt hàng, thanh toán tiền mặt, ví điện tử, xem đơn hàng, đánh giá sản phẩm theo đơn hàng. Cùng với đó là các chức năng quản lý sản phẩm, đơn hàng và các tùy chỉnh khác phía quản trị.',
     image: 'images/project/vanous_ecommerce.png',
     technologies: ['Spring Boot', 'ReactJS', 'TailwindCSS', 'MySQL', 'Flyway', 'Docker'],
-    githubLink: 'https://github.com/pmss0168/NienLuanNganh-Fork',
+    githubLink: 'https://github.com/pmss0168/NienLuanNganh',
     demoLink: '#',
   },
   {
