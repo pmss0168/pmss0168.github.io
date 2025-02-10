@@ -6,7 +6,7 @@ const projects = [
     image: 'images/project/vanous_ecommerce.png',
     technologies: ['Spring Boot', 'ReactJS', 'TailwindCSS', 'MySQL', 'Flyway', 'Docker'],
     githubLink: 'https://github.com/pmss0168/NienLuanNganh',
-    demoLink: '#',
+    demoLink: 'https://youtu.be/JwcIDzTOwMc',
   },
   {
     title: 'VanouS Motel',
@@ -15,7 +15,7 @@ const projects = [
     image: 'images/project/vanous_motel.jpeg',
     technologies: ['Java J2EE', 'JSP', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     githubLink: 'https://github.com/pmss0168/VanousMotel',
-    demoLink: '#',
+    demoLink: 'https://youtu.be/J_uk7eON5sM',
   },
   {
     title: 'VanouS Chat',
@@ -24,7 +24,7 @@ const projects = [
     image: 'images/project/vanous_chat.png',
     technologies: ['NodeJS', 'ExpressJS', 'SocketIO', 'EJS', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
     githubLink: 'https://github.com/pmss0168/NLCS_ChatApp',
-    demoLink: '#',
+    demoLink: 'https://youtu.be/hJzWALvx-9M',
   },
 ];
 
@@ -45,10 +45,10 @@ function createProjectHTML(project, index) {
                             .join('')}
                       </div>
                       <div class="project-links">
+                          <a href="${project.demoLink}" class="project-link">Live Demo</a>
                           <a href="${
                             project.githubLink
                           }" class="project-link" target="_blank">View on GitHub</a>
-                          <!-- <a href="${project.demoLink}" class="project-link">Live Demo</a> -->
                       </div>
                     </div>
                 </div>
